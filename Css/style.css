@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+  }
+
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+  width: 100%;
+}
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/coffeehouse.jpg");
+    min-height: 75%;
+}
+.gray-scale {
+    filter: grayscale(50%)
+}
+
+.bg-color, .bg-color:hover {
+    color: #000;
+    background-color: #fdf5e6;
+}
+
+
+/* ========================== NAV BAR ========================== */
+.nav-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.nav-black {
+  color: #fff ;
+  background-color: #000;
+}
+
+.nav-block {
+    display: block;
+    width: 100%;
+}
+
+.nav-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nav-button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.nav-padding{
+    padding: 8px 16px;
+}
+
+.nav-col {
+    width: 23.3%
+}
+/* ========================== FIN NAV BAR ========================== */
+
+/* ========================== HEADER ========================== */
+
+.header-title {
+    font-size:90px
+}
+.header-image-display-container {
+    position: relative;
+}
+
+.header-grayscale-min {
+    filter: grayscale(50%);
+}
+
+.header-position-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.header-position-bottomleft {
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.header-position-bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.header-text-white{
+    color: #fff;
+}
+.header-padding {
+    padding: 12px 24px !important;
+}
+.header-box {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+/* ========================== FIN HEADER ========================== */
+.bg-color{
+  text-align: center;
+  background-color: transparent;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subtitle{
+  color: white;
+  background-color: black;
+  font-size: 15pt;
+}
+.citation{
+  background-color: #F1F1F1;
+  border-left:16px solid #CCCCCC;
+}
+.menu1{
+  border: 5px solid black;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+#eat{
+  display: none;
+}
+#eat:target{
+  display: block;
+}
+#eat:target + #drink2 {
+  display: none;
+}
+#drink2:target{
+  display: block;
+}
+.w3-margin-top{
+  filter: grayscale(50%);
+}
+.w3-image1{
+  filter: grayscale(50%);
+}
+.w3-image{
+  filter: grayscale(50%);
+}
+.FYI{
+  color: white;
+  background-color: black;
+}
+ input{
+  width: 100%;
+  padding: 10px
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 13px;
+  border: none;
+}
+button:hover {
+  background-color: grey;
+}
+.bas{
+  text-align: center;
+}
+
+#timer {
+  font-weight: bold;
+}
+
+.promo{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+#map {
+  height: 150px;
+}
